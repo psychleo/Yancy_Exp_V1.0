@@ -1,0 +1,31 @@
+body {
+    user-select: none;
+    /* none|auto|text|contain|all; 禁止选中文本（防止复制） */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    -moz-user-select: none;
+    /* Firefox */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+}
+
+.jspsych-btn {
+    font-size: 16pt;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    margin: 1em 0em;
+}
+
+.tag-left {
+    font-size: 24pt;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.tag-right {
+    font-size: 24pt;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
